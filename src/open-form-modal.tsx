@@ -34,6 +34,8 @@ export const openFormModal = async <T,>({
         }
         return;
       }
+
+      console.error("validate failed");
     };
 
     modalID = overlayManager.open(({ close }) => (
