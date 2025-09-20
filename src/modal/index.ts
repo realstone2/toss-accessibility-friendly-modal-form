@@ -1,2 +1,2 @@
 export * from "./components/Modal";
-export * from "./open-modal";
+export * from "./utils/overlay-manager";
